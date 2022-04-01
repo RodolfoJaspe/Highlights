@@ -5,38 +5,29 @@ import { getAllMatches } from '../actions/allMatchesActions';
 import "./Home.css";
 import ball from "../assets/ball.png";
 
-const Home = ({getAllMatches, loading, matches}) => {
+const Home = ({getAllMatches, loading, leagues}) => {
 
     const navigate = useNavigate()
     
     useEffect(() => {
         getAllMatches();
     },[getAllMatches]);
-    const leagues = []
-    matches.map(match => {
-        if(!leagues.includes(match.competition.id)){
-            leagues.push(match.competition.id)
-            leagues.push(match.competition)
-        }
-    })
-    console.log(leagues)
+
     if (loading){
-        return <div className='ball'><img src={ball}/></div>;
+        return <div className='ball'><img src={ball} alt="spinning-loading-ball"/></div>;
     }
+
     return (
-        <div 
-            className='home' 
-        >
+        <div className='home'>
             {leagues.map(league => {
-                if(league.name){
-                    return (
-                        <div 
-                            onClick={() => navigate(`/leagues/${league.id}`)}
-                            className="league-names-div">
-                            <h3>{league.name}</h3>
-                        </div> 
-                    )   
-                }
+                return (
+                    <div 
+                        onClick={() => navigate(`/leagues/${league.id}`)}
+                        className="league-names-div"
+                        key={league.id}>
+                        <h3>{league.name}</h3>
+                    </div> 
+                )   
             })}
         </div>
     )
@@ -44,7 +35,7 @@ const Home = ({getAllMatches, loading, matches}) => {
 
 const mapStateToProps = state => {
     return {
-        matches: state.allMatchesReducer.matches,
+        leagues:state.allMatchesReducer.leagues,
         loading: state.allMatchesReducer.loading
     }
 }

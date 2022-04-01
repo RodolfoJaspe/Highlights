@@ -1,11 +1,10 @@
 import React from 'react';
-import './Match.css';
+import '../styles/Match.css';
 
 const Match = (props) => {
     const gameEmbed = props.match.embed;
 
     const titleArray = props.match.title.split(" - ")
-    console.log(titleArray)
 
     return (
         <div className="match" >
@@ -15,7 +14,6 @@ const Match = (props) => {
                     <h6>VS</h6>
                     <p>{titleArray[1]}</p>
                 </div>
-                
                 <div 
                     className='video'
                     dangerouslySetInnerHTML={{__html:gameEmbed}}>

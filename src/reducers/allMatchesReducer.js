@@ -2,7 +2,8 @@ import {FETCHING_ALL_MATCHES_START, FETCHING_ALL_MATCHES_SUCCESS, FETCHING_ALL_M
 
 const initialState = {
     loading: false,
-    matches: []
+    allMatches: [],
+    leagues: [],
 }
 
 export const allMatchesReducer = (state = initialState, action) => {
@@ -10,7 +11,7 @@ export const allMatchesReducer = (state = initialState, action) => {
         case FETCHING_ALL_MATCHES_START:
             return {...state, loading: true };
         case FETCHING_ALL_MATCHES_SUCCESS:
-            return {...state, loading: false, matches: action.payload};
+            return {...state, loading: false, allMatches: action.payload.allMatches, leagues:action.payload.leagues};
         case FETCHING_ALL_MATCHES_FAILURE:
             return {...state, loading: false};
         default:

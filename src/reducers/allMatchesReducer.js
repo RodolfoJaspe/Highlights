@@ -1,0 +1,19 @@
+import {FETCHING_ALL_MATCHES_START, FETCHING_ALL_MATCHES_SUCCESS, FETCHING_ALL_MATCHES_FAILURE} from "../actions/allMatchesActions";
+
+const initialState = {
+    loading: false,
+    matches: []
+}
+
+export const allMatchesReducer = (state = initialState, action) => {
+    switch(action.type) {
+        case FETCHING_ALL_MATCHES_START:
+            return {...state, loading: true };
+        case FETCHING_ALL_MATCHES_SUCCESS:
+            return {...state, loading: false, matches: action.payload};
+        case FETCHING_ALL_MATCHES_FAILURE:
+            return {...state, loading: false};
+        default:
+            return state;    
+    }
+}

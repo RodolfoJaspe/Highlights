@@ -1,17 +1,21 @@
 import './App.css';
-import  PremierLeague  from './components/PremierLeague';
-import LaLiga from './components/LaLiga';
-import SerieA from './components/SerieA';
+import {BrowserRouter as Router, Route, Routes, Link} from "react-router-dom";
+import Home from './components/Home';
+import Header from './components/Header';
+import League from './components/League';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>LATEST HIGHLIGHTS</h1>  
-        <PremierLeague />
-        <LaLiga />
-        <SerieA />
-      </header>
+    <div className="App" >
+        <Router>
+            <div className="App-inner">
+                <Header />
+                <Routes>
+                    <Route exact path="/" element={<Home />}/>
+                    <Route path="/leagues/:id" element={<League />}/>
+                </Routes>
+            </div>       
+        </Router>
     </div>
   );
 }

@@ -1,0 +1,71 @@
+.home {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 5vw;
+}
+
+.league-names-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  margin: 2vw;
+  border-radius: 0.5vw;
+  background: linear-gradient(
+    to bottom,
+    rgba(173, 216, 230, 0.068),
+    rgba(0, 0, 131, 0.109)
+  );
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+  color: rgba(4, 0, 65, 0.527);
+  transition: 0.5s;
+}
+
+.league-names-div:hover {
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  transition: 0.5s;
+  box-shadow: 0 0 10px white;
+}
+
+.ball {
+  margin-top: 10vw;
+  position: center;
+  width: 100%;
+}
+
+.ball img {
+  width: 5vw;
+  animation: rotation 1s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@media (max-width: 700px) {
+  .league-names-div {
+    width: 40%;
+    font-size: 1rem;
+    border-radius: 1vw;
+  }
+}
+@media (max-width: 600px) {
+  .league-names-div {
+    width: 45%;
+    font-size: 0.8rem;
+    border-radius: 1.5vw;
+  }
+}
+@media (max-width: 500px) {
+  .league-names-div {
+    font-size: 0.6rem;
+    border-radius: 2vw;
+  }
+}

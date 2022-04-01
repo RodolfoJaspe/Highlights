@@ -1,8 +1,51 @@
 .match {
-  width: 70vw;
-  margin: 40px;
-  padding: 40px 20px;
-  background: rgb(5, 82, 5);
+  width: 40%;
+  height: 100%;
+  margin: 2vw 0;
+  padding: 2vw 3.5vw;
+  background: url("../assets/soccer-field.jpeg");
+  background-color: rgb(240, 248, 255);
+  background-size: cover;
   border: 2px solid white;
-  border-radius: 5vw;
+  border-radius: 2vw;
+}
+
+.match-inner p {
+  font-family: Soccer League College;
+  color: white;
+  /* text-shadow: 2px 2px rgb(0, 53, 0); */
+  font-size: 3rem;
+  margin: 0;
+}
+
+video {
+  width: 40vw;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title h6 {
+  font-family: Ocean Rush;
+  font-size: 3rem;
+  background: -webkit-linear-gradient(rgb(255, 0, 0), rgb(251, 255, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+}
+
+@media (max-width: 1300px) {
+  .match {
+    width: 90%;
+  }
+}
+
+@media (max-width: 700px) {
+  .match-inner p {
+    font-size: 2rem;
+  }
 }

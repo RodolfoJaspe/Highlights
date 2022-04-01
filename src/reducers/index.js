@@ -1,8 +1,6 @@
-import { eplReducer } from './eplReducer';
-import { laLigaReducer } from './laLigaReducer';
 import { combineReducers } from 'redux';
-import { serieAReducer } from './serieAReducer';
+import { allMatchesReducer } from './allMatchesReducer';
+import { LeagueReducer } from './LeagueReducer';
 
-export const rootReducer = combineReducers({
-    eplReducer, laLigaReducer, serieAReducer
+export const rootReducer = combineReducers({allMatchesReducer, LeagueReducer
 })

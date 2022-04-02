@@ -9,7 +9,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 30%;
+  width: 35%;
   margin: 2vw;
   border-radius: 0.5vw;
   background: linear-gradient(
@@ -18,8 +18,9 @@
     rgba(0, 0, 131, 0.109)
   );
   font-family: Soccer League;
+  font-size: 1.5rem;
   cursor: pointer;
-  color: rgba(4, 0, 65, 0.664);
+  color: rgba(4, 0, 65, 0.561);
   transition: 0.5s;
 }
 
@@ -51,21 +52,20 @@
 
 @media (max-width: 700px) {
   .league-names-div {
-    width: 40%;
-    font-size: 1rem;
+    width: 90%;
+    font-size: 5vw;
     border-radius: 1vw;
   }
 }
 @media (max-width: 600px) {
   .league-names-div {
-    width: 45%;
-    font-size: 0.8rem;
+    /* font-size: 1.5rem; */
     border-radius: 1.5vw;
   }
 }
 @media (max-width: 500px) {
   .league-names-div {
-    font-size: 0.6rem;
+    /* font-size: 0.6rem; */
     border-radius: 2vw;
   }
 }

@@ -73,6 +73,7 @@ header a:hover {
 @media (max-width: 500px) {
   header {
     flex-wrap: wrap;
+    margin-bottom: 10vw;
   }
   header a {
     font-size: 6.9vw;
@@ -80,6 +81,6 @@ header a:hover {
     margin: 2vw 0;
   }
   .app-name {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 }

@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import Match from './Match';
 import {useParams} from "react-router-dom";
 import ball from "../assets/ball.png";
-import "./League.css"
+import "../styles/League.css"
 
 
 const League = ({loading, allMatches}) => {
@@ -19,7 +19,7 @@ const League = ({loading, allMatches}) => {
  
     return (
         <div className='matches'>
-            <h2>{leagueMatches[0].competition.name}</h2>
+            <div className='competition-name'>{leagueMatches[0].competition.name}</div> 
             {leagueMatches.map(match => (
                 <Match match={match} key={match.title}/>
             ))} 

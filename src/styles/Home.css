@@ -17,16 +17,16 @@
     rgba(173, 216, 230, 0.068),
     rgba(0, 0, 131, 0.109)
   );
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Soccer League;
   cursor: pointer;
-  color: rgba(4, 0, 65, 0.527);
+  color: rgba(4, 0, 65, 0.664);
   transition: 0.5s;
 }
 
 .league-names-div:hover {
   cursor: pointer;
-  color: rgb(255, 255, 255);
   transition: 0.5s;
+  text-shadow: 0 0 10px white;
   box-shadow: 0 0 10px white;
 }
 

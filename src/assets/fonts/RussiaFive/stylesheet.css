@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Russia Five';
+    src: url('RussiaFive.eot');
+    src: url('RussiaFive.eot?#iefix') format('embedded-opentype'),
+        url('RussiaFive.woff2') format('woff2'),
+        url('RussiaFive.woff') format('woff'),
+        url('RussiaFive.ttf') format('truetype'),
+        url('RussiaFive.svg#RussiaFive') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -2,7 +2,7 @@ import React,{useEffect} from 'react';
 import { connect } from 'react-redux';
 import {useNavigate} from "react-router-dom";
 import { getAllMatches } from '../actions/allMatchesActions';
-import "./Home.css";
+import "../styles/Home.css";
 import ball from "../assets/ball.png";
 
 const Home = ({getAllMatches, loading, leagues}) => {

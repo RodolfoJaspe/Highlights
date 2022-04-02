@@ -1,5 +1,5 @@
 .header-outer {
-  /* background: blue; */
+  margin-top: 2vw;
 }
 
 .home-button-outer {
@@ -8,7 +8,7 @@
   justify-content: flex-start;
 }
 
-.home-button-outer h1 {
+.app-name {
   font-family: Ocean Rush;
   font-size: 3rem;
   margin-left: 5vw;
@@ -17,6 +17,12 @@
   -webkit-text-fill-color: transparent;
   margin-bottom: 0;
   cursor: pointer;
+  transition: 2s;
+}
+
+.app-name:hover {
+  text-shadow: 0 0 5px rgba(255, 0, 0, 0.692);
+  transition: 2s;
 }
 
 header {
@@ -25,35 +31,38 @@ header {
   justify-content: space-evenly;
   width: 100vw;
   margin-top: 2vw;
+  margin-bottom: 5vw;
 }
 
 header a {
   text-decoration: none;
-  font-family: Soccer League College;
-  font-size: 1.5rem;
-  color: rgb(6, 0, 92);
+  font-family: Soccer League;
+  font-size: 2rem;
+  color: black;
   transition: 0.5s;
 }
 
 header a:hover {
-  color: rgb(255, 255, 255);
-  text-shadow: 1px 1px rgb(6, 0, 92);
+  text-shadow: 0 0 10px white;
   transition: 0.5s;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
   header a {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
-  .home-button-outer h1 {
+}
+
+@media (max-width: 700px) {
+  .app-name {
     font-size: 2.5rem;
+  }
+  header a {
+    font-size: 1rem;
   }
 }
 @media (max-width: 600px) {
-  header a {
-    font-size: 1.1rem;
-  }
-  .home-button-outer h1 {
+  .app-name {
     font-size: 2rem;
   }
 }
@@ -61,7 +70,7 @@ header a:hover {
   header a {
     font-size: 0.8rem;
   }
-  .home-button-outer h1 {
+  .app-name {
     font-size: 1.8rem;
   }
 }

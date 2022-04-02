@@ -11,7 +11,7 @@ const Header = () => {
     return (
         <div className='header-outer'>
             <div className='home-button-outer'>
-                <h1 onClick={() => navigate("/")}>Hilites</h1>       
+                <div className="app-name" onClick={() => navigate("/")}>Hilites</div>       
             </div>
             <header>
                 <Link to="/leagues/15">Premier League</Link>

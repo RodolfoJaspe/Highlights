@@ -25,7 +25,7 @@ const Home = ({getAllMatches, loading, leagues}) => {
                         onClick={() => navigate(`/leagues/${league.id}`)}
                         className="league-names-div"
                         key={league.id}>
-                        <h3>{league.name}</h3>
+                        <div>{league.name}</div>
                     </div> 
                 )   
             })}

@@ -52,20 +52,20 @@
 
 @media (max-width: 700px) {
   .league-names-div {
-    width: 90%;
+    width: 100%;
     font-size: 5vw;
     border-radius: 1vw;
+    padding: 2vw 0;
   }
 }
 @media (max-width: 600px) {
   .league-names-div {
-    /* font-size: 1.5rem; */
     border-radius: 1.5vw;
   }
 }
 @media (max-width: 500px) {
   .league-names-div {
-    /* font-size: 0.6rem; */
     border-radius: 2vw;
+    font-size: 5.5vw;
   }
 }

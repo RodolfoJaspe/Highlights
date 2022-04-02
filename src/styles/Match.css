@@ -6,7 +6,8 @@
   background: url("../assets/soccer-field.jpeg");
   background-color: rgb(240, 248, 255);
   background-size: cover;
-  border: 2px solid white;
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: 0 0 1vw rgb(255, 255, 255);
   border-radius: 2vw;
 }
 
@@ -29,7 +30,7 @@ video {
   justify-content: center;
 }
 
-.title h6 {
+.vs {
   font-family: Ocean Rush;
   font-size: 3rem;
   background: -webkit-linear-gradient(rgb(255, 0, 0), rgb(251, 255, 0));
@@ -46,6 +47,21 @@ video {
 
 @media (max-width: 700px) {
   .match-inner p {
-    font-size: 2rem;
+    font-size: 8vw;
+  }
+  .match {
+    padding-bottom: 0;
+  }
+  video {
+    height: 80%;
+  }
+  .vs {
+    font-size: 10vw;
+  }
+}
+
+@media (max-width: 540px) {
+  .match {
+    background-size: contain;
   }
 }

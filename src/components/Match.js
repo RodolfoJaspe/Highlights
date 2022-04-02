@@ -11,7 +11,7 @@ const Match = (props) => {
             <div className='match-inner'>
                 <div className='title'>
                     <p>{titleArray[0]}</p>
-                    <h6>VS</h6>
+                    <div className='vs'>VS</div>
                     <p>{titleArray[1]}</p>
                 </div>
                 <div 

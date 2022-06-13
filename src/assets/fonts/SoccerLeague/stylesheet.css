@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Soccer League';
+    src: url('SoccerLeague-Regular.eot');
+    src: url('SoccerLeague-Regular.eot?#iefix') format('embedded-opentype'),
+        url('SoccerLeague-Regular.woff2') format('woff2'),
+        url('SoccerLeague-Regular.woff') format('woff'),
+        url('SoccerLeague-Regular.ttf') format('truetype'),
+        url('SoccerLeague-Regular.svg#SoccerLeague-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Soccer League College';
+    src: url('SoccerLeagueCollege-Italic.eot');
+    src: url('SoccerLeagueCollege-Italic.eot?#iefix') format('embedded-opentype'),
+        url('SoccerLeagueCollege-Italic.woff2') format('woff2'),
+        url('SoccerLeagueCollege-Italic.woff') format('woff'),
+        url('SoccerLeagueCollege-Italic.ttf') format('truetype'),
+        url('SoccerLeagueCollege-Italic.svg#SoccerLeagueCollege-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Soccer League';
+    src: url('SoccerLeague-Italic.eot');
+    src: url('SoccerLeague-Italic.eot?#iefix') format('embedded-opentype'),
+        url('SoccerLeague-Italic.woff2') format('woff2'),
+        url('SoccerLeague-Italic.woff') format('woff'),
+        url('SoccerLeague-Italic.ttf') format('truetype'),
+        url('SoccerLeague-Italic.svg#SoccerLeague-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Soccer League College';
+    src: url('SoccerLeagueCollege-Regular.eot');
+    src: url('SoccerLeagueCollege-Regular.eot?#iefix') format('embedded-opentype'),
+        url('SoccerLeagueCollege-Regular.woff2') format('woff2'),
+        url('SoccerLeagueCollege-Regular.woff') format('woff'),
+        url('SoccerLeagueCollege-Regular.ttf') format('truetype'),
+        url('SoccerLeagueCollege-Regular.svg#SoccerLeagueCollege-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

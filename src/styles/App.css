@@ -1,0 +1,127 @@
+.App {
+  text-align: center;
+  background: url("../assets/championsleague.jpeg"),
+    url("../assets/08champs.jpeg");
+  background-size: contain, cover;
+  background-repeat: no-repeat, no-repeat;
+  background-position: top, bottom;
+  color: black;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-inner {
+  background-color: #e0f8ffa6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding-bottom: 10vw;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@font-face {
+  font-family: "Ocean Rush";
+  src: url("../assets/fonts/OceanRush/OceanRushDEMO.eot");
+  src: url("../assets/fonts/OceanRush/OceanRushDEMO.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/fonts/OceanRush/OceanRushDEMO.woff2") format("woff2"),
+    url("../assets/fonts/OceanRush/OceanRushDEMO.woff") format("woff"),
+    url("../assets/fonts/OceanRush/OceanRushDEMO.ttf") format("truetype"),
+    url("../assets/fonts/OceanRush/OceanRushDEMO.svg#OceanRushDEMO")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Soccer League";
+  src: url("../assets/fonts/SoccerLeague/SoccerLeague-Regular.eot");
+  src: url("../assets/fonts/SoccerLeague/SoccerLeague-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/fonts/SoccerLeague/SoccerLeague-Regular.woff2")
+      format("woff2"),
+    url("../assets/fonts/SoccerLeague/SoccerLeague-Regular.woff") format("woff"),
+    url("../assets/fonts/SoccerLeague/SoccerLeague-Regular.ttf")
+      format("truetype"),
+    url("../assets/fonts/SoccerLeague/SoccerLeague-Regular.svg#SoccerLeague-Regular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Soccer League College";
+  src: url("../assets/fonts/SoccerLeague/SoccerLeagueCollege-Italic.eot");
+  src: url("../assets/fonts/SoccerLeague/SoccerLeagueCollege-Italic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/fonts/SoccerLeague/SoccerLeagueCollege-Italic.woff2")
+      format("woff2"),
+    url("../assets/fonts/SoccerLeague/SoccerLeagueCollege-Italic.woff")
+      format("woff"),
+    url("../assets/fonts/SoccerLeague/SoccerLeagueCollege-Italic.ttf")
+      format("truetype"),
+    url("../assets/fonts/SoccerLeague/SoccerLeagueCollege-Italic.svg#SoccerLeagueCollege-Italic")
+      format("svg");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Soccer League";
+  src: url("../assets/fonts/SoccerLeague/SoccerLeague-Italic.eot");
+  src: url("../assets/fonts/SoccerLeague/SoccerLeague-Italic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/fonts/SoccerLeague/SoccerLeague-Italic.woff2")
+      format("woff2"),
+    url("../assets/fonts/SoccerLeague/SoccerLeague-Italic.woff") format("woff"),
+    url("../assets/fonts/SoccerLeague/SoccerLeague-Italic.ttf")
+      format("truetype"),
+    url("../assets/fonts/SoccerLeague/SoccerLeague-Italic.svg#SoccerLeague-Italic")
+      format("svg");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Soccer League College";
+  src: url("../assets/fonts/SoccerLeague/SoccerLeagueCollege-Regular.eot");
+  src: url("../assets/fonts/SoccerLeague/SoccerLeagueCollege-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/fonts/SoccerLeague/SoccerLeagueCollege-Regular.woff2")
+      format("woff2"),
+    url("../assets/fonts/SoccerLeague/SoccerLeagueCollege-Regular.woff")
+      format("woff"),
+    url("../assets/fonts/SoccerLeague/SoccerLeagueCollege-Regular.ttf")
+      format("truetype"),
+    url("../assets/fonts/SoccerLeague/SoccerLeagueCollege-Regular.svg#SoccerLeagueCollege-Regular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Russia Five";
+  src: url("../assets/fonts/RussiaFive/RussiaFive.eot");
+  src: url("../assets/fonts/RussiaFive/RussiaFive.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/fonts/RussiaFive/RussiaFive.woff2") format("woff2"),
+    url("../assets/fonts/RussiaFive/RussiaFive.woff") format("woff"),
+    url("../assets/fonts/RussiaFive/RussiaFive.ttf") format("truetype"),
+    url("../assets/fonts/RussiaFive/RussiaFive.svg#RussiaFive") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,50 @@
+.matches {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: space-evenly;
+}
+
+.ball img {
+  width: 5vw;
+  animation: rotation 1s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.ball {
+  position: center;
+  width: 100%;
+  margin-top: 10vw;
+}
+
+.competition-name {
+  font-size: 3rem;
+  font-family: Russia Five;
+  width: 100%;
+  text-align: center;
+  background: -webkit-linear-gradient(rgb(0, 8, 83), rgb(0, 132, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 5vw;
+}
+
+@media (max-width: 900px) {
+  .competition-name {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .competition-name {
+    font-size: 1.5rem;
+  }
+}
